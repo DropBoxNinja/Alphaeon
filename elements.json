@@ -1,0 +1,49 @@
+{
+  "careCredit": {
+    "getStarted": "//*[@id=\"ApplyForm\"]/input[28]",
+    "profession": "//*[@id=\"profession-apply\"]",
+
+    "verifySSN": "//*[@id=\"pfLandinglast4SSN\"]",
+    "verifyMobileNumber": "//*[@id=\"pfLandingMobileNo\"]",
+    "verifyButton": "//*[@id=\"payfoneSubmitbtn\"]",
+
+    "textLink": "//*[@id=\"#\"]/div[7]/div[2]/a",
+
+    "creditLimit": "//*[@id=\"intialAmount\"]",
+    "firstName": "//*[@id=\"firstName\"]",
+    "lastName": "//*[@id=\"lastName\"]",
+    "streetAddress": "//*[@id=\"mailingAddress\"]",
+    "zipCode": "//*[@id=\"applyVTO_applicantVO_zip_id\"]",
+    "cityAndState": "//*[@id=\"applyVTO_applicantVO_city_id\"]",
+    "housing": "//*[@id=\"applyVTO_applicantVO_housing\"]",
+    "primaryPhone": "//*[@id=\"appPrimaryPhone\"]",
+    "primaryPhoneType": "//*[@id=\"appPrimaryPhoneType\"]",
+    "emailAddress": "//*[@id=\"emailCheck\"]",
+    "confirmEmailAddress": "//*[@id=\"displayEmail\"]/div[2]/div/div/div[1]/div/label",
+    "ssnNumber": "//*[@id=\"socialSecurityNumberDiv\"]/div[1]/div/label[1]",
+    "DOB": "//*[@id=\"appDOB\"]",
+    "monthlyIncome": "//*[@id=\"appNetIncome\"]",
+    "apply": "//*[@id=\"submitButton\"]"
+  },
+
+  "alphaeonCredit": {
+    "preQualifyButton": "//*[@id=\"main-content\"]/div/div/div/div[3]/button",
+
+    "verifyMobileNumber": "//*[@id=\"lookupFormMobilePhone\"]",
+    "verifySSN": "//*[@id=\"creditAppSSN\"]",
+    "verifyZipCode": "//*[@id=\"lookupFormZip\"]",
+    "acceptCookieButton": "//*[@id=\"onetrust-accept-btn-handler\"]",
+    "verifyButton": "//*[@id=\"lookupFormSubmit\"]",
+
+    "firstName": "//*[@id=\"creditAppFirstName\"]",
+    "lastName": "//*[@id=\"creditAppLastName\"]",
+    "streetAddress": "//*[@id=\"creditAppStreet-input\"]",
+    "city": "//*[@id=\"creditAppCity\"]",
+    "state": "//*[@id=\"creditAppState\"]",
+    "annualIncome": "//*[@id=\"creditAppIncome\"]",
+    "consentCheck": "//*[@id=\"reviewTermsConsent\"]",
+    "submitButton": "//*[@id=\"prequalOfferAppSubmit\"]",
+
+    "contactCustomCare": "//*[@id=\"root\"]/div/div[1]/div[3]/div/div/div[1]/div/span/a"
+  }
+}
